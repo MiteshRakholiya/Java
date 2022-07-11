@@ -10,7 +10,7 @@ public class Interface_list {
 		// TODO Auto-generated method stub
 		List<String> countries = new ArrayList<>();
 		countries.add("India");
-		countries.add("USA");
+		countries.add("India");
 		countries.add("Poland");
 		countries.add("Egypt");
 		countries.add("Thailand");
