@@ -7,6 +7,7 @@ public class overloading_1 {
 		System.out.println("sum of 2 numbers:" +sum(1,2.5f));
 		System.out.println("sum of 2 numbers:" +sum(1.3,2.3));
 		System.out.println("sum of 3 numbers:" +sum(1,2,3));
+		
 	}
 
 	public static int sum(int x, int y) {

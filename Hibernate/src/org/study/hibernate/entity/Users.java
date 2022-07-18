@@ -20,18 +20,20 @@ public class Users {
 	String password;
 
 	@Column(name = "first_name")
-	String firstname;
+	String firstName;
 
 	@Column(name = "last_name")
-	String Lastname;
+	String lastName;
 
-	public Users(int userId, String username, String password, String firstname, String lastname) {
-		
-		this.userId = userId;
+	public Users() {
+	
+	}
+
+	public Users(String username, String password, String firstName, String lastName) {
 		this.username = username;
 		this.password = password;
-		this.firstname = firstname;
-		Lastname = lastname;
+		this.firstName = firstName;
+		this.lastName = lastName;
 	}
 
 	public int getUserId() {
@@ -58,20 +60,26 @@ public class Users {
 		this.password = password;
 	}
 
-	public String getFirstname() {
-		return firstname;
+	public String getFirstName() {
+		return firstName;
 	}
 
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
-	public String getLastname() {
-		return Lastname;
+	public String getLastName() {
+		return lastName;
 	}
 
-	public void setLastname(String lastname) {
-		Lastname = lastname;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	@Override
+	public String toString() {
+		return "Users [userId=" + userId + ", username=" + username + ", password=" + password + ", firstName="
+				+ firstName + ", lastName=" + lastName + "]";
 	}
 
 }

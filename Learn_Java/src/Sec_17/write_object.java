@@ -9,7 +9,7 @@ public class write_object {
 		serialization bike = new serialization("bike", 2422);
 		serialization car = new serialization("car",2803 );
 	
-		try(FileOutputStream fos = new FileOutputStream("Easy Study\\serialization.dat"));
+//		try(FileOutputStream fos = new FileOutputStream("Easy Study\\serialization.dat"));
 	}
 
 }
