@@ -107,11 +107,24 @@ public class MainClass {
 //		Outer.Inner.Innermethod();
 //		System.out.println(Outer.Inner.x);
 		
-		B obj = new B();
-		obj.India();
-		obj.Canada();
+//		B obj = new B();
+//		obj.India();
+//		obj.Canada();
 		
-
+//		int[] intArray = {1,2,3,4,5,6,7,8,9};
+//		System.out.println(intArray[3]);
+//		
+//		float[] floatArray = {1.0f,2.0f,3.0f,4.0f,5.0f,6.0f,7.0f,8.0f,9.0f};
+//		System.out.println(floatArray[10]);
+		
+		String[] stringArray = {"Mitesh","Rahul","Jayesh","Sameer","Prashant"};
+//		for(int i=0;i<stringArray.length;i++) {
+//			System.out.println(stringArray[i]);	
+//		}
+		for (String name: stringArray) {
+			System.out.println(name);
+		}
+		
 	}
 
 }
